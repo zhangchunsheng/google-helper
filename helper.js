@@ -3283,9 +3283,9 @@ seajs.use(["app/u", "lib/t", "app/t", "app/p", "app/b", "app/notifications", "ap
         })
     })
 }),
-/*setTimeout(function() {
+setTimeout(function() {
     var t = t || [];
-    t.push(["_setAccount", "UA-48334954-3"]),
+    t.push(["_setAccount", ""]),
     t.push(["_trackPageview"]),
     function() {
         var t = document.createElement("script");
@@ -3295,4 +3295,4 @@ seajs.use(["app/u", "lib/t", "app/t", "app/p", "app/b", "app/notifications", "ap
         var e = document.getElementsByTagName("script")[0];
         e.parentNode.insertBefore(t, e)
     }()
-}, 1e4);*/
+}, 1e4);
